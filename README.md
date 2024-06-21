@@ -19,3 +19,8 @@ This is the standard for how Lighthouse v2 will be written:
 - Use JSDocs `/** */` to document functions. Comments should be used primarily for confusing code.
 - Routes should have unit tests.
 - Use #region comments to section off large chunks of code, such as separating post, get, put, and delete requests.
+
+### Contributing
+To contribute to Lighthouse v2, simply clone this repository. In terminal, navigate to where you cloned the repo, then run `npm install`. If you are on a Unix-based Operating System (MacOS, Linux, etc), run `DEBUG=myapp:* npm start`. If you are on Windows, run `set DEBUG=myapp:* & npm start`. This will install Lighthouse v2.
+
+You must make your own branch before pushing to this repository. The main branch is protected.
